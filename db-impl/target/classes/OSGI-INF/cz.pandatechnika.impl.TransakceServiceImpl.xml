@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="cz.pandatechnika.impl.TransakceServiceImpl" immediate="true">
+  <implementation class="cz.pandatechnika.impl.TransakceServiceImpl"/>
+  <service>
+    <provide interface="cz.pandatechnika.api.TransakceService"/>
+  </service>
+</component>

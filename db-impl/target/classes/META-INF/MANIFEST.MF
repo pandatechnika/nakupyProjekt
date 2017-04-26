@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1493212347807
+Bundle-ManifestVersion: 2
+Bundle-Name: db-impl
+Bundle-SymbolicName: db-impl
+Bundle-Version: 1.0.0
+Created-By: 1.8.0_91 (Oracle Corporation)
+Import-Package: cz.pandatechnika.api;version="[1.0,2)",org.hibernate;v
+ ersion="[5.2,6)",org.hibernate.cfg;version="[5.2,6)"
+Private-Package: cz.pandatechnika.impl,hibernate,hibernate.mapping,map
+ ping
+Provide-Capability: osgi.service;objectClass:List<String>="cz.pandatec
+ hnika.api.TransakceService"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/cz.pandatechnika.impl.TransakceServiceImpl
+ .xml
+Tool: Bnd-3.2.0.201605172007
