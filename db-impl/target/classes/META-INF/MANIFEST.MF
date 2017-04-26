@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1493212347807
+Bnd-LastModified: 1493214244426
 Bundle-ManifestVersion: 2
 Bundle-Name: db-impl
 Bundle-SymbolicName: db-impl

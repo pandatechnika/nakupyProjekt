@@ -46,12 +46,14 @@
 	</dependencies>
 
 	<build>
+	<!-- 
 	<resources>
 		<resource>
 			<filtering>true</filtering>
 			<directory>src/main/resources</directory>
 		</resource>
 	</resources>
+	-->
 	<plugins>
 		<plugin>
 			<groupId>biz.aQute.bnd</groupId>
